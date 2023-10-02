@@ -30,4 +30,9 @@ public abstract class Shape implements Comparable<Shape> {
 			return 0;
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Shape with height:" + height + ", volume:" + getVolume() + ", BaseArea:" + getBaseArea();
+	}
 }

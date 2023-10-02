@@ -25,4 +25,9 @@ public class Cone extends Shape {
     public double getBaseArea() {
         return Math.PI * Math.pow(radius, 2);
     }
+
+    @Override
+    public String toString() {
+        return "Cone" + super.toString();
+    }
 }
